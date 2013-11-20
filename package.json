@@ -1,0 +1,24 @@
+{
+  "name": "git-init-remote",
+  "version": "0.0.1",
+  "description": "git init-remote host:path/to/repo.git",
+  "main": "git-init-remote.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nak2k/node-git-init-remote"
+  },
+  "scripts": {
+  },
+  "keywords": [
+    "git"
+  ],
+  "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "git-init-remote": "git-init-remote.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "optimist": "~0.6.0"
+  }
+}
